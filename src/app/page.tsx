@@ -1,7 +1,6 @@
 'use client';
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -116,7 +115,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <div className="mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 opacity-0 animate-scale-in" style={{ animationDelay: '0.4s' }}>
-                <span className="text-white">Hi, I'm </span><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">Mustafa Nasser</span>
+                <span className="text-white">Hi, I&apos;m </span><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">Mustafa Nasser</span>
               </h1>
               <p className="text-xl md:text-2xl text-blue-400 font-semibold mb-8 opacity-0 animate-fade-in-left relative" style={{ animationDelay: '0.6s' }}>
                 <span className="relative inline-block">
@@ -210,7 +209,7 @@ export default function Home() {
                 </h2>
                 <div className="w-16 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mb-6 rounded-full"></div>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                  I'm an AI & Automation Engineer with 3+ years of experience in building intelligent systems that
+                  I&apos;m an AI & Automation Engineer with 3+ years of experience in building intelligent systems that
                   automate complex workflows, automate data extraction, and generate insights from structured and
                   unstructured data using Python, machine learning, and advanced automation frameworks.
                 </p>
@@ -271,9 +270,11 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-2xl transform hover:scale-105 transition-transform duration-300">
                   <div className="text-center mb-6">
                     <div className="w-48 h-48 mx-auto mb-4 relative overflow-hidden rounded-full border-4 border-gradient-to-br from-blue-600 to-indigo-600 shadow-xl">
-                      <img 
+                      <Image 
                         src="/myImage.jpeg" 
                         alt="Mustafa Nasser" 
+                        width={192}
+                        height={192}
                         className="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-300"
                         style={{imageRendering: 'high-quality'}}
                       />
@@ -836,11 +837,11 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-16 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                Let's Work Together
+                Let&apos;s Work Together
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-4 opacity-0 animate-scale-in" style={{ animationDelay: '0.4s' }}></div>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto opacity-0 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-                I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together!
+                I&apos;m always interested in new opportunities and exciting projects. Let&apos;s discuss how we can work together!
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8 mb-12">
