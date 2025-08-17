@@ -331,7 +331,7 @@ export default function Home() {
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6 rounded-full opacity-0 animate-scale-in" style={{ animationDelay: '0.4s' }}></div>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto opacity-0 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-                I've worked with a variety of technologies in AI, automation, and web development
+                I&apos;ve worked with a variety of technologies in AI, automation, and web development
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -536,7 +536,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                      Bachelor's in Artificial Intelligence
+                      Bachelor&apos;s in Artificial Intelligence
                     </h3>
                     <p className="text-blue-600 dark:text-blue-400 font-semibold">
                       Helwan International Technological University
