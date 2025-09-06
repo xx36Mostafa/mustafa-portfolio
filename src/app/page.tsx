@@ -214,7 +214,7 @@ export default function Home() {
                   unstructured data using Python, machine learning, and advanced automation frameworks.
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                  Based in Al-Hawamidiya, Cairo, Egypt, I specialize in creating scalable solutions that bridge the gap
+                  Based in Giza, Egypt, I specialize in creating scalable solutions that bridge the gap
                   between complex data sources and actionable business intelligence.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -291,7 +291,7 @@ export default function Home() {
                       <svg className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-3" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                       </svg>
-                      <span className="text-gray-700 dark:text-gray-300">Al-Hawamidiya, Cairo, Egypt</span>
+                      <span className="text-gray-700 dark:text-gray-300">Giza, Egypt</span>
                     </div>
                     <div className="flex items-center">
                       <svg className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-3" fill="currentColor" viewBox="0 0 24 24">
@@ -867,7 +867,7 @@ export default function Home() {
                   Location
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Al-Hawamidiya, Cairo, Egypt
+                  Giza, Egypt
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover-lift group hover:bg-gradient-to-br hover:from-purple-50 hover:to-indigo-50 dark:hover:from-gray-800 dark:hover:to-purple-900 opacity-0 animate-slide-in-bottom" style={{ animationDelay: '1.2s' }}>
@@ -919,5 +919,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
