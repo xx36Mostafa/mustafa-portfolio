@@ -271,7 +271,7 @@ export default function Home() {
                   <div className="text-center mb-6">
                     <div className="w-48 h-48 mx-auto mb-4 relative overflow-hidden rounded-full border-4 border-gradient-to-br from-blue-600 to-indigo-600 shadow-xl">
                       <Image 
-                        src="/myImage.jpeg" 
+                        src="/myImage.jpg" 
                         alt="Mustafa Nasser" 
                         width={192}
                         height={192}
@@ -919,4 +919,5 @@ export default function Home() {
     </div>
   );
 }
+
 
