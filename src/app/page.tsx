@@ -469,46 +469,82 @@ export default function Home() {
                 My professional journey in AI and automation engineering
               </p>
             </div>
-            <div className="space-y-8">
-              <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover-lift group hover:bg-gradient-to-br hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-blue-900 opacity-0 animate-slide-in-bottom" style={{ animationDelay: '0.8s' }}>
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Current Position */}
+              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover-lift group hover:bg-gradient-to-br hover:from-green-50 hover:to-emerald-50 dark:hover:from-gray-700 dark:hover:to-green-900 opacity-0 animate-slide-in-bottom" style={{ animationDelay: '0.8s' }}>
+                <div className="flex flex-col mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors duration-300">
+                      HTML Parser & API Integration Specialist
+                    </h3>
+                    <p className="text-lg text-green-600 dark:text-green-400 font-semibold">
+                      USEND - Remote
+                    </p>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 font-medium mt-2">
+                    Sep 2024 - Present
+                  </div>
+                </div>
+                <div className="space-y-3">
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
+                    Developing advanced HTML parsing systems and integrating AI/LLM technologies for automated data processing and extraction.
+                  </p>
+                  <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+                    <li className="flex items-start">
+                      <span className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                      Processing large-scale HTML documents with custom parsing algorithms
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                      Integrating LLM and API services for intelligent data processing
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                      Building scalable automation workflows for data extraction
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Freelance Work */}
+              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover-lift group hover:bg-gradient-to-br hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-blue-900 opacity-0 animate-slide-in-bottom" style={{ animationDelay: '1.0s' }}>
+                <div className="flex flex-col mb-4">
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                       AI & Automation Engineer | Web Scraper Expert
                     </h3>
                     <p className="text-lg text-blue-600 dark:text-blue-400 font-semibold">
                       Freelance / Remote - <a href="https://www.upwork.com/freelancers/~01f4c8c8a8a8a8a8" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 dark:hover:text-blue-300 transition-colors underline">Upwork Profile</a>
                     </p>
                   </div>
-                  <div className="text-gray-600 dark:text-gray-300 font-medium">
+                  <div className="text-gray-600 dark:text-gray-300 font-medium mt-2">
                     Jan 2022 - Present
                   </div>
                 </div>
-                <div className="space-y-4">
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    Specialized in building intelligent automation systems and advanced web scraping solutions for international clients through Upwork platform, delivering high-quality data extraction and workflow automation projects.
+                <div className="space-y-3">
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
+                    Specialized in building intelligent automation systems and advanced web scraping solutions for international clients through Upwork platform.
                   </p>
-                  <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+                  <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
                     <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Developed advanced web scraping solutions for e-commerce platforms, social media sites, and complex dynamic websites using Python, Selenium, BeautifulSoup, and Scrapy frameworks.
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                      Developed advanced web scraping solutions using Python, Selenium, BeautifulSoup
                     </li>
                     <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Built scalable automation pipelines and data processing systems using FastAPI, integrating with databases and real-time dashboards for business intelligence.
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                      Built scalable automation pipelines with FastAPI and database integration
                     </li>
                     <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Created intelligent Telegram bots and desktop automation tools for workflow optimization, customer service automation, and data management.
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                      Created intelligent Telegram bots and desktop automation tools
                     </li>
                     <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Delivered 50+ successful projects on Upwork with 100% client satisfaction, specializing in complex data extraction, API integrations, and custom automation solutions.
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                      Delivered 50+ successful projects with 100% client satisfaction
                     </li>
                   </ul>
                 </div>
               </div>
-              
             </div>
           </div>
         </section>
