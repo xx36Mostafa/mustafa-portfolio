@@ -34,7 +34,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 dark:bg-gray-900/90 backdrop-blur-md z-50 border-b border-gray-200 dark:border-gray-700 shadow-lg transition-all duration-300">
         {/* Progress Bar */}
-        <div className="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-300" style={{width: '0%'}} id="progress-bar"></div>
+        <div className="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-300" style={{ width: '0%' }} id="progress-bar"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="text-2xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 cursor-pointer">
@@ -71,19 +71,19 @@ export default function Home() {
                 Contact
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              </div>
+            </div>
 
-              {/* Call to Action Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center opacity-0 animate-fade-in-up" style={{ animationDelay: '1.2s' }}>
-                <a href="#contact" className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl group relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <span className="relative z-10">Contact Me</span>
-                </a>
-                <a href="#projects" className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 font-semibold rounded-lg hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white transition-all duration-300 transform hover:scale-105 hover:shadow-xl group relative overflow-hidden">
-                  <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <span className="relative z-10">View My Work</span>
-                </a>
-              </div>
+            {/* Call to Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center opacity-0 animate-fade-in-up" style={{ animationDelay: '1.2s' }}>
+              <a href="#contact" className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl group relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <span className="relative z-10">Contact Me</span>
+              </a>
+              <a href="#projects" className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 font-semibold rounded-lg hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white transition-all duration-300 transform hover:scale-105 hover:shadow-xl group relative overflow-hidden">
+                <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <span className="relative z-10">View My Work</span>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
@@ -96,15 +96,15 @@ export default function Home() {
           <div className="absolute inset-0 overflow-hidden">
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-indigo-900/20"></div>
-            
+
             {/* Animated Blobs */}
             <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-blue-500/30 to-cyan-500/30 rounded-full filter blur-3xl opacity-60 animate-blob"></div>
             <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-br from-purple-500/30 to-pink-500/30 rounded-full filter blur-3xl opacity-60 animate-blob animation-delay-2000"></div>
             <div className="absolute top-40 left-40 w-80 h-80 bg-gradient-to-br from-indigo-500/30 to-blue-500/30 rounded-full filter blur-3xl opacity-60 animate-blob animation-delay-4000"></div>
-            
+
             {/* Grid Pattern */}
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
-            
+
             {/* Floating Particles */}
             <div className="absolute top-20 left-20 w-2 h-2 bg-blue-400 rounded-full animate-ping opacity-60"></div>
             <div className="absolute top-40 right-32 w-1 h-1 bg-purple-400 rounded-full animate-pulse opacity-80"></div>
@@ -154,7 +154,7 @@ export default function Home() {
                 className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center hover:bg-green-600 transition-all duration-300 hover:scale-110 transform hover:shadow-lg hover:animate-pulse-glow group relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <svg className="w-6 h-6 text-white relative z-10 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/>
+                  <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z" />
                 </svg>
               </a>
               <a href="mailto:mostafanasser3786@gmail.com"
@@ -185,7 +185,7 @@ export default function Home() {
 
         {/* Back to Top Button */}
         <div className="fixed bottom-6 left-6 z-40">
-          <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="w-12 h-12 bg-gray-800 dark:bg-gray-700 text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 opacity-0" id="back-to-top">
+          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="w-12 h-12 bg-gray-800 dark:bg-gray-700 text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 opacity-0" id="back-to-top">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
             </svg>
@@ -270,9 +270,9 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-2xl transform hover:scale-105 transition-transform duration-300">
                   <div className="text-center mb-6">
                     <div className="w-48 h-48 mx-auto mb-4 relative overflow-hidden rounded-full border-4 border-gradient-to-br from-blue-600 to-indigo-600 shadow-xl">
-                      <Image 
-                        src="/myImage.jpg" 
-                        alt="Mustafa Nasser" 
+                      <Image
+                        src="/myImage.jpg"
+                        alt="Mustafa Nasser"
                         width={192}
                         height={192}
                         className="w-full h-full object-cover object-center hover:scale-110 transition-transform duration-300"
@@ -475,7 +475,7 @@ export default function Home() {
                 <div className="flex flex-col mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors duration-300">
-                      HTML Parser & API Integration Specialist
+                      HTML Parser & ML Engineering
                     </h3>
                     <p className="text-lg text-green-600 dark:text-green-400 font-semibold">
                       USEND - Remote
@@ -487,7 +487,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-3">
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
-                    Developing advanced HTML parsing systems and integrating AI/LLM technologies for automated data processing and extraction.
+                    Developing advanced HTML parsing systems and integrating AI/LLM technologies for automated data processing and extraction. Additionally, training language models (LM) to enhance text analysis.
                   </p>
                   <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
                     <li className="flex items-start">
@@ -617,7 +617,7 @@ export default function Home() {
                     <h4 className="font-semibold text-gray-900 dark:text-white">
                       Digital Egypt Youth Program
                     </h4>
-                    <p className="text-purple-600 dark:text-purple-400 font-medium">From NTI</p>
+                    <p className="text-purple-600 dark:text-purple-400 font-medium">NTI</p>
                   </div>
                   <div className="border-l-4 border-orange-500 pl-4">
                     <h4 className="font-semibold text-gray-900 dark:text-white">
@@ -627,9 +627,9 @@ export default function Home() {
                   </div>
                   <div className="border-l-4 border-red-500 pl-4">
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      IBM AI Engineering Professional Certificate
+                      Generative Ai
                     </h4>
-                    <p className="text-red-600 dark:text-red-400 font-medium">Coursera</p>
+                    <p className="text-red-600 dark:text-red-400 font-medium">ITI</p>
                   </div>
                   <div className="border-l-4 border-indigo-500 pl-4">
                     <h4 className="font-semibold text-gray-900 dark:text-white">
@@ -792,73 +792,81 @@ export default function Home() {
 
 
 
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover-lift group hover:bg-gradient-to-br hover:from-emerald-50 hover:to-teal-50 dark:hover:from-gray-700 dark:hover:to-emerald-900 opacity-0 animate-slide-in-bottom" style={{ animationDelay: '1.6s' }}>
+              {/* Horse Racing Intelligence Platform - Merged Project */}
+              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover-lift group hover:bg-gradient-to-br hover:from-emerald-50 hover:to-purple-50 dark:hover:from-gray-700 dark:hover:to-emerald-900 opacity-0 animate-slide-in-bottom" style={{ animationDelay: '1.6s' }}>
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-emerald-100 dark:bg-emerald-900 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 group-hover:animate-pulse-glow">
+                  <div className="w-12 h-12 bg-gradient-to-br from-emerald-100 to-purple-100 dark:from-emerald-900 dark:to-purple-900 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 group-hover:animate-pulse-glow">
                     <svg className="w-6 h-6 text-emerald-600 dark:text-emerald-400 group-hover:text-emerald-700 dark:group-hover:text-emerald-300 transition-colors" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                     </svg>
                   </div>
-                  <span className="text-sm bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-200 px-3 py-1 rounded-full">
-                    Jan 2024 - Apr 2024
+                  <span className="text-sm bg-gradient-to-r from-emerald-100 to-purple-100 dark:from-emerald-900 dark:to-purple-900 text-emerald-800 dark:text-emerald-200 px-3 py-1 rounded-full">
+                    Jan 2024 - May 2024
                   </span>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-                  Horse Racing Scraper
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 bg-gradient-to-r from-emerald-600 to-purple-600 bg-clip-text text-transparent group-hover:from-emerald-700 group-hover:to-purple-700 transition-all">
+                  Horse Racing Intelligence & ML Platform
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                  Advanced web scraping system for extracting comprehensive horse racing data from multiple betting platforms. Features intelligent data parsing, real-time odds tracking, and automated data validation with export capabilities for analysis and betting strategies.
+                  Comprehensive end-to-end platform combining advanced web scraping, data processing, and machine learning for horse racing analytics.
+                  Features intelligent data extraction from multiple betting platforms, automated data cleaning and validation,
+                  ML dataset generation, and predictive modeling with excellent performance results.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded">
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-emerald-200 dark:hover:bg-emerald-800 transition-colors">
                     Python
                   </span>
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded">
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-emerald-200 dark:hover:bg-emerald-800 transition-colors">
                     Web Scraping
                   </span>
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded">
-                    Data Processing
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-emerald-200 dark:hover:bg-emerald-800 transition-colors">
+                    Machine Learning
                   </span>
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded">
-                    Automation
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-emerald-200 dark:hover:bg-emerald-800 transition-colors">
+                    Data Engineering
+                  </span>
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-emerald-200 dark:hover:bg-emerald-800 transition-colors">
+                    Predictive Analytics
                   </span>
                 </div>
               </div>
 
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+              {/* X API Reverse Engineering Project */}
+              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover-lift group hover:bg-gradient-to-br hover:from-blue-50 hover:to-cyan-50 dark:hover:from-gray-700 dark:hover:to-blue-900 opacity-0 animate-fade-in-up" style={{ animationDelay: '1.8s' }}>
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mr-4 transform transition-transform hover:rotate-12">
-                    <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 group-hover:animate-pulse-glow">
+                    <svg className="w-6 h-6 text-blue-600 dark:text-blue-400 group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
                     </svg>
                   </div>
-                  <span className="text-sm bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full">
-                    Mar 2024 - May 2024
+                  <span className="text-sm bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full">
+                    Recent Project
                   </span>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  Racing Intelligence & ML Dataset Builder
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  X API Reverse Engineering Specialist
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                  Developed a comprehensive pipeline to scrape, clean, and structure horse racing results from tab.com.au for predictive modeling.
-                  The system features automated data extraction with custom Python scripts, intelligent JSON parsing to clean CSVs,
-                  robust error handling with retry mechanisms, and generates high-quality structured datasets optimized for ML training.
+                  Comprehensive testing suite for X (Twitter) login flow analysis and authorized penetration testing.
+                  Developed advanced tools for HAR file analysis, TLS client implementation, and authentication flow replication
+                  with proper security measures and legal compliance. Additionally, implemented reverse engineering techniques,
+                  encryption protocol analysis, scraper development, and automated tweet publishing tools.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors">
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
                     Python
                   </span>
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors">
-                    Web Scraping
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
+                    Reverse Engineering
                   </span>
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors">
-                    Data Engineering
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
+                    API Analysis
                   </span>
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors">
-                    Machine Learning
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
+                    TLS Client
                   </span>
-                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-purple-200 dark:hover:bg-purple-800 transition-colors">
-                    JSON Processing
+                  <span className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-2 py-1 rounded hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
+                    Security Testing
                   </span>
                 </div>
               </div>
