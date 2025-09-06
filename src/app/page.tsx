@@ -478,7 +478,7 @@ export default function Home() {
                       HTML Parser & ML Engineering
                     </h3>
                     <p className="text-lg text-green-600 dark:text-green-400 font-semibold">
-                      USEND - Remote
+                      Remote
                     </p>
                   </div>
                   <div className="text-gray-600 dark:text-gray-300 font-medium mt-2">
@@ -964,6 +964,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
