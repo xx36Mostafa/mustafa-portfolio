@@ -508,45 +508,7 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-              <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover-lift group hover:bg-gradient-to-br hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-blue-900 opacity-0 animate-slide-in-bottom" style={{ animationDelay: '0.8s' }}>
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
-                      AI & Automation Engineer | Web Scraper Expert
-                    </h3>
-                    <p className="text-lg text-blue-600 dark:text-blue-400 font-semibold">
-                      Freelance / Remote - <a href="https://www.upwork.com/freelancers/~01f4c8c8a8a8a8a8" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 dark:hover:text-blue-300 transition-colors underline">Upwork Profile</a>
-                    </p>
-                  </div>
-                  <div className="text-gray-600 dark:text-gray-300 font-medium">
-                    Jan 2022 - Present
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    Specialized in building intelligent automation systems and advanced web scraping solutions for international clients through Upwork platform, delivering high-quality data extraction and workflow automation projects.
-                  </p>
-                  <ul className="space-y-3 text-gray-700 dark:text-gray-300">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Developed advanced web scraping solutions for e-commerce platforms, social media sites, and complex dynamic websites using Python, Selenium, BeautifulSoup, and Scrapy frameworks.
-                    </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Built scalable automation pipelines and data processing systems using FastAPI, integrating with databases and real-time dashboards for business intelligence.
-                    </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Created intelligent Telegram bots and desktop automation tools for workflow optimization, customer service automation, and data management.
-                    </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      Delivered 50+ successful projects on Upwork with 100% client satisfaction, specializing in complex data extraction, API integrations, and custom automation solutions.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
+              
             </div>
           </div>
         </section>
